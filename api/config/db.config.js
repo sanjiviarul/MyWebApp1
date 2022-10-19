@@ -22,9 +22,9 @@ const connect = () => {
         }
     });*/
     
-    const hostName = "34.74.94.155";
+    const hostName = "10.10.10.57";
     const userName = "postgres";
-    const password = "arul-2202";
+    const password = "Psql@2202@";
     const database = "postgres";
     const dialect = "postgres";
 

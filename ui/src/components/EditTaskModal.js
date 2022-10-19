@@ -1,3 +1,4 @@
+/*EditTaskModal.js*/
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -58,6 +59,7 @@ export default function EditTaskModal({task, taskEdited}) {
                         <option>To Be Done</option>
                         <option>In Progress</option>
                         <option>Completed</option>
+                        <option>Stalled</option>
                     </select>
                 </div>
             </div>

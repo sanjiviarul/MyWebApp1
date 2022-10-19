@@ -1,3 +1,4 @@
+/* CreateTask.js */
 import React from 'react'
 import { useForm } from "react-hook-form";
 import { createTask } from '../services/TaskService'
@@ -37,6 +38,7 @@ export default function CreateTask(props) {
                                 <option>To Be Done</option>
                                 <option>In Progress</option>
                                 <option>Completed</option>
+                                <option>Stalled</option>
                             </select>
                         </div>
                     </div>
