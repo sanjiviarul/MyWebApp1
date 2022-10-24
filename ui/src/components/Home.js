@@ -39,14 +39,16 @@ function Home() {
   return (
     <div className="App">
       <Header></Header>
-      <div className="container mrgnbtm">
+      <div className="container mrgnbtm divcolor">
         <div className="row">
-          <div className="col-md-12">
-              <CreateTask taskCreated={taskCreated}></CreateTask>
+          <div className="col-md-12 " >
+            
+              <CreateTask  taskCreated={taskCreated}></CreateTask>
+            
           </div>
         </div>
       </div>
-      <div className="container mrgnbtm">
+      <div className="container mrgnbtm ">
         <Tasks tasks={tasks} deleteTask={delTask} taskEdited={taskEdited}></Tasks>
      </div> 
   </div>
