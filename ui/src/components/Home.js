@@ -5,6 +5,7 @@ import '../App.css';
 import Header from './Header'
 import { Tasks } from './Tasks'
 import CreateTask from './CreateTask'
+// eslint-disable-next-line no-unused-vars
 import { getAllTasks, deleteTask, fetchSettings } from '../services/TaskService'
 
 function Home() {
