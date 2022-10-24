@@ -24,7 +24,7 @@ const connect = () => {
     
     const hostName = "34.74.94.155";
     const userName = "postgres";
-    const password = "Psql@2202@";
+    const password = "arul-2202";
     const database = "postgres";
     const dialect = "postgres";
 
@@ -40,7 +40,7 @@ const connect = () => {
         }
     });
 
-    console.log('process.env.PG_CONNECTION_STR ', process.env.PG_CONNECTION_STR)
+//    console.log('process.env.PG_CONNECTION_STR ', process.env.PG_CONNECTION_STR)
 
 /*    const sequelize = new Sequelize(process.env.PG_CONNECTION_STR, {
         dialectModule: pg
