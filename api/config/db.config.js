@@ -4,8 +4,6 @@ const pg = require('pg');
 
 const connect = () => {
 
-
-    
     const hostName = "34.74.94.155";
     const userName = "postgres";
     const password = "arul-2202";
