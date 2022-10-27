@@ -22,3 +22,25 @@
 .h2color{
   color:darkgreen;
 }
+
+.divcolor{
+  color:red;
+  background-color:yellow;
+}
+
+.txtfields{
+  color:blue;
+}
+
+.tblheader{
+  color:darkorange;
+}
+
+.tblrows{
+  color:darkgreen;
+}
+
+.body{
+  background-color:lightgray;
+  
+}

@@ -19,10 +19,10 @@ export default function CreateTask(props) {
                 <div className="col-md-12 mrgnbtm">
                 <h2 className='h2color'>ToDo List</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="row mrgnbtm">
+                    <div className="row mrgnbtm ">
                         <div className="form-group col-md-6">
-                            <label htmlFor="exampleInputEmail1">Task</label>
-                            <input {...register("task")} placeholder="Create a Task" className="form-control" name="task" id="task" />
+                            <label  htmlFor="exampleInputEmail1">Task</label>
+                            <input {...register("task")} placeholder="Create a Task" className="form-control h2color" name="task" id="task" />
                         </div>
                     </div>
                     <div className="row mrgnbtm">

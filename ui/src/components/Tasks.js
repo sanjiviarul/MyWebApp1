@@ -36,8 +36,8 @@ export const Tasks = ({tasks, deleteTask, taskEdited}) => {
     return(
         <div className="container">
             <h2 className='h2color'>Tasks</h2>
-            <table className="table table-bordered">
-                <thead>
+            <table className="table table-bordered txtfields">
+                <thead >
                 <tr>
                     <th>Task Id</th>
                     <th>Task Name</th>

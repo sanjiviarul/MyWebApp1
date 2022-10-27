@@ -5,6 +5,7 @@ import '../App.css';
 import Header from './Header'
 import { Tasks } from './Tasks'
 import CreateTask from './CreateTask'
+// eslint-disable-next-line no-unused-vars
 import { getAllTasks, deleteTask, fetchSettings } from '../services/TaskService'
 
 function Home() {
@@ -39,14 +40,16 @@ function Home() {
   return (
     <div className="App">
       <Header></Header>
-      <div className="container mrgnbtm">
+      <div className="container mrgnbtm divcolor">
         <div className="row">
-          <div className="col-md-12">
-              <CreateTask taskCreated={taskCreated}></CreateTask>
+          <div className="col-md-12 " >
+            
+              <CreateTask  taskCreated={taskCreated}></CreateTask>
+            
           </div>
         </div>
       </div>
-      <div className="container mrgnbtm">
+      <div className="container mrgnbtm ">
         <Tasks tasks={tasks} deleteTask={delTask} taskEdited={taskEdited}></Tasks>
      </div> 
   </div>
