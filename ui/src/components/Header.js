@@ -14,7 +14,7 @@ const Header = () => {
         <h1> Add Something Here</h1>
         
         <form class="ps-lg-5">
-              <button class="btn btn-lg btn-primary rounded-pill order-0" type="submit">My Web App</button>
+              <button class="btn btn-lg btn-success rounded-pill order-0" type="submit">My Web App</button>
         </form>
     </div>
 
