@@ -4,21 +4,21 @@
   "description": "Example Project on how to build and develop REST API with NodeJS and MongoDB",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server.js localhost 3081",
+"dev": "nodemon ./server.js 34.74.94.155 3081",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ENVIRONMENT=$ENVIRONMENT webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bbachi/nodejs-restapi-mongo.git"
+    "url": "git+https://github.com/sanjiviarul/MyWebApp1/tree/withOutSwagger"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bbachi/nodejs-restapi-mongo/issues"
+    "url": "https://github.com/sanjiviarul/MyWebApp1/issues"
   },
-  "homepage": "https://github.com/bbachi/nodejs-restapi-mongo#readme",
+  "homepage": "https://github.com/sanjiviarul/MyWebApp1/tree/withOutSwagger#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

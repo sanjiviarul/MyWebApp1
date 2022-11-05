@@ -7,7 +7,7 @@ console.log('environment:::::', environment);
 
 /*
 
-HOST=localhost
+HOST=34.74.94.155
 USER=bhargavbachina
 DB=bhargavbachina
 DIALECT=postgres
