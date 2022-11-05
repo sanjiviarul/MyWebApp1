@@ -11,11 +11,13 @@ const Header = () => {
             Postgresql-Express-React-Nodejs (PERN) Stack Example!
         </h1>
         </div>
-        <h1> Add Something Here</h1>
-        
+        <div className="header">
+        <h1 class="h2color"> This line is from /ui/src/components/Header.js</h1>
+        </div>
         <form class="ps-lg-5">
-              <button class="btn btn-lg btn-success rounded-pill order-0" type="submit">My Web App</button>
+              <button class="btn btn-sm btn-success rounded-pill order-0" type="submit">from /ui/src/components/Header.js</button>
         </form>
+  
     </div>
 
     )
