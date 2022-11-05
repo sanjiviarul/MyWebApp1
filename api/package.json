@@ -4,7 +4,7 @@
   "description": "Example Project on how to build and develop REST API with NodeJS and MongoDB",
   "main": "index.js",
   "scripts": {
-"dev": "nodemon ./server.js 34.74.94.155 3081",
+"dev": "nodemon ./server.js localhost 3081",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ENVIRONMENT=$ENVIRONMENT webpack"
   },

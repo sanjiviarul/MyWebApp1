@@ -136,7 +136,7 @@ Once installed, you can open that and connect to the PostgreSQL server with the 
 // name of the server
 name: local (You can name anything)
 // Hostname
-host name: 34.74.94.155
+host name: localhost
 // User Name
 username: <user name based on the above postgres.app>
 
@@ -256,7 +256,7 @@ We have another two important components here one is for the createTask Form com
 
 
 CreateTask and Tasks Components
-Run the React code in local with the following command which runs on the port 3000 on 34.74.94.155. Make sure you are in the root folder of React code which is todo-app here.
+Run the React code in local with the following command which runs on the port 3000 on localhost. Make sure you are in the root folder of React code which is todo-app here.
 
 cd ui
 npm start

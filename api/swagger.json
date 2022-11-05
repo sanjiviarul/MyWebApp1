@@ -13,7 +13,7 @@
         }
     },
     "schemes": ["http"],
-    "host": "34.74.94.155:3081",
+    "host": "localhost:3081",
     "basePath": "/api",
     "paths" : {
         "/tasks" : {
