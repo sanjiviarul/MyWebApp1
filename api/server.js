@@ -27,7 +27,7 @@ app.get('/api/tasks', (req, res) => {
 });
 
 app.post('/api/task', (req, res) => {
-    console.log(req.body);
+    console.log(req.body.task);
     taskController.createTask(req.body.task).then(data => res.json(data));
 });
 
