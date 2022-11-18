@@ -360,3 +360,4 @@ We will use cypress for the integration tests.
 We have to build the project for production in a different way. We can’t use the proxy object.
 Conclusion
 PERN Stack is very good when you want to develop a simple web app and deploy your frontend and backend together. We have seen how to write PERN Stack in detail. In future posts, we will see how to build and deploy the PERN Stack on different Clouds such as GCP, Azure, AWS, etc.
+Bye!
